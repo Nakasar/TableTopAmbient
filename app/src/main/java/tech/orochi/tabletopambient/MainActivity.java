@@ -12,10 +12,6 @@ import android.widget.ImageButton;
 
 public class MainActivity extends AppCompatActivity {
 
-    private ImageButton SoundMuteButton;
-    private ImageButton LightStopButton;
-    private ImageButton MusicMuteButton;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

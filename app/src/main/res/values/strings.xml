@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">TableTopAmbient</string>
     <string name="title_activity_main">MainActivity</string>
+    <string name="sound_panel_button">Sound panel</string>
+    <string name="light_panel_button">Light control panel</string>
+    <string name="image_panel_button">Image Panel</string>
+    <string name="music_panel_button">Music Panel</string>
+    <string name="home_panel_button">Home</string>
 </resources>

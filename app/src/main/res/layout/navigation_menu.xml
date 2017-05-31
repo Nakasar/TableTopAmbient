@@ -1,64 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/navigation_menu"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context="tech.orochi.tabletopambient.NavigationMenu"
-    >
-
-
-    <LinearLayout
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/navigation_menu"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="0dp"
-        android:layout_marginLeft="0dp"
-        android:layout_marginRight="0dp"
-        android:layout_marginStart="0dp"
-        android:layout_marginTop="0dp"
         android:orientation="horizontal"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        tools:context="tech.orochi.tabletopambient.NavigationMenu">
 
         <ImageButton
-            android:id="@+id/soundPanelButton"
+            android:id="@+id/home_panel_button"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            app:srcCompat="@drawable/ic_volume_down_black_24dp"
-            tools:layout_editor_absoluteX="39dp"
-            tools:layout_editor_absoluteY="16dp" />
+            android:contentDescription="@string/home_panel_button"
+            app:srcCompat="@drawable/ic_home_black_24dp"/>
 
         <ImageButton
-            android:id="@+id/lightPanelButton"
+            android:id="@+id/sound_panel_button"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:contentDescription="@string/sound_panel_button"
+            app:srcCompat="@drawable/ic_volume_down_black_24dp" />
+
+        <ImageButton
+            android:id="@+id/light_panel_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="@string/light_panel_button"
             app:srcCompat="@drawable/ic_lightbulb_outline_black_24dp"
             tools:layout_editor_absoluteX="112dp"
             tools:layout_editor_absoluteY="16dp" />
 
         <ImageButton
-            android:id="@+id/imagePanelButton"
+            android:id="@+id/image_panel_button"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:contentDescription="@string/image_panel_button"
             app:srcCompat="@drawable/ic_landscape_black_24dp"
             tools:layout_editor_absoluteX="304dp"
             tools:layout_editor_absoluteY="16dp" />
 
         <ImageButton
-            android:id="@+id/musicPanelButton"
+            android:id="@+id/music_panel_button"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:contentDescription="@string/music_panel_button"
             app:srcCompat="@drawable/ic_music_note_black_24dp"
             tools:layout_editor_absoluteX="192dp"
             tools:layout_editor_absoluteY="16dp" />
 
     </LinearLayout>
-
-</LinearLayout>
