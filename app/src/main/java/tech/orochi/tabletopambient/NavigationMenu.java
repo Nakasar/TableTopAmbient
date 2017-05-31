@@ -1,7 +1,6 @@
 package tech.orochi.tabletopambient;
 
 import android.app.Fragment;
-import android.R.layout;
 import android.os.Bundle;
 import android.view.View;
 import android.view.LayoutInflater;
@@ -16,6 +15,6 @@ public class NavigationMenu extends Fragment{
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
     {
-        return inflater.inflate(R.layout.content_main, container, false);
+        return inflater.inflate(R.layout.navigation_menu, container, false);
     }
 }
